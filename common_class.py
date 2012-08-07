@@ -4,7 +4,7 @@ import pygame
 from variable import *
 #Common class for object in game
 
-class game_object(pygame.sprite.DirtySprite):
+class Game_object(pygame.sprite.DirtySprite):
 	def __init__(self,name,color,fimage):
 		pygame.sprite.DirtySprite.__init__(self)
 		self.name = name
