@@ -5,6 +5,7 @@ from pygame.locals import *
 import random
 
 
+#EDITED
 
 #Variable
 max_item = 10
